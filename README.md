@@ -1,2 +1,4 @@
 # Tripli Kotlin
- EN: A mobile application for finding the ideal itineraries. This project is also a semester work for the course "Application Development for Mobile Devices" at the Faculty of Management and Informatics of UNIZA. SK: Mobilná aplikácia na vyhľadanie ideálnych itinerárov. Tento projekt je zároveň aj semestrálnou prácou pre predmet "Vývoj aplikácií pre mobilné zariadenia" (VAMZ) na Fakulte riadenia a informatiky UNIZA.
+EN: A mobile application for finding the ideal itineraries. This project is also a semester work for the course "Application Development for Mobile Devices" at the Faculty of Management and Informatics of UNIZA. 
+
+SK: Mobilná aplikácia na vyhľadanie ideálnych itinerárov. Tento projekt je zároveň aj semestrálnou prácou pre predmet "Vývoj aplikácií pre mobilné zariadenia" (VAMZ) na Fakulte riadenia a informatiky UNIZA.
