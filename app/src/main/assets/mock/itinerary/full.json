@@ -1,0 +1,2082 @@
+{
+    "author": {
+        "id": 1,
+        "title": "Martin Talač",
+        "rating": 4,
+        "image": "./mock/author/assets/images/yoda.jpg"
+    },
+    "reviews": [
+        {
+            "user_name": "Igor Matovič",
+            "user_image": "./mock/itinerary/assets/images/misty-forest.jpg",
+            "rating": 4,
+            "text": "Can I go... one time? Next time?",
+            "images": [
+                "./mock/itinerary/assets/images/misty-forest.jpg"
+            ]
+        },
+        {
+            "user_name": "Dwayne Johnson",
+            "user_image": "./mock/itinerary/assets/images/misty-forest.jpg",
+            "rating": 2,
+            "text": "Only paper can beat me!",
+            "images": [
+                "./mock/itinerary/assets/images/misty-forest.jpg"
+            ]
+        },
+        {
+            "user_name": "Pán včielka",
+            "user_image": "./mock/itinerary/assets/images/misty-forest.jpg",
+            "rating": 1,
+            "text": "Bzz! BZZZZZ!",
+            "images": [
+                "./mock/itinerary/assets/images/misty-forest.jpg"
+            ]
+        }
+    ],
+    "itinerary": {
+        "id": 1,
+        "author_id": 1,
+        "title": "SELF-DRIVE BEST OF SLOVAKIA",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "themes": ["discover", "city break"],
+        "duration": 5,
+        "estimated_trip_price": 984,
+        "price": 12,
+        "rating": 4,
+        "location": "https://www.google.com/maps/place/Slovensko/@48.6688576,18.5784631,7z/data=!3m1!4b1!4m5!3m4!1s0x471460b9ae7cc67f:0xcd6b6167b1723a7d!8m2",
+        "arrival_time": null,
+        "images": [
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/self-drive-slovakia.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/blue-church.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/slavin.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/streets-of-old-town.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/zanzibar.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/coral-reef.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/czechia-beer.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/sunny-carribean.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/wine-tasting.jpg"
+            },
+            {
+                "id": 1,
+                "link": "./mock/itinerary/assets/images/rainy-england.jpg"
+            }
+        ],
+        "general_information": [
+            {
+                "id": 1,
+                "title": "1. VISAS AND NECESSARY DOCUMENTS",
+                "description": "For the citizens of the European Union a valid personal ID is sufficient. The list of countries, the citizens of which need a valid visa to enter Slovakia, you find on the home page of the Ministry of foreign affairs of SR, or you can get informed directly at the competent Embassy. For more information about Visa, please visit the website of the Ministry of foreign affairs.",
+                "others": [
+                    {
+                        "icon": "website",
+                        "title": null,
+                        "text": "https://www.mzv.sk/web/en/consular_info/visa"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "2. CURRENCY AND CASH",
+                "description": "The currency is EURO since 1st January 2009. It is possible to pay with credit/debit card in places like restaurants, cafes, grocery stores, gas stations, cable cars, water parks. However it is not possible to pay with card for entry fees in some of the museums, castles, caves and parking fees. Therefore, it is necessary to have cash. The estimated cost of cash you should have for entry fees during this tour is around 70-90 EUR/person. To get EUROs, you can simply use ATM´s or exchanges in the towns.",
+                "others": []
+            },
+            {
+                "id": 3,
+                "title": "3. PLAN YOUR ARRIVAL DAY ",
+                "description": "The tour begins in the capital of Slovakia – Bratislava. You will spend the first night of your tour in  this city. If you need more advices and information about getting to Bratislava, please have a look  at ITINERARY and find more information included in DAY 1.",
+                "others": []
+            }
+        ],
+        "plan": [
+            {
+                "id": 1,
+                "day": 1,
+                "title": "ARRIVAL TO BRATISLAVA",
+                "description": "Today you are arriving to the capital city of Slovakia – Bratislava and you are spending the night here. Depending on your itinerary and arrival, you may have enough time to explore the city and visit and see some of the most interesting places. Even if you have only an hour of day light left, we recommend you to walk through charming streets of the Old town and enjoy dinner in one of our recommended restaurants (scroll down for more information).",
+                "type": "activity",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/self-drive-slovakia.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Radisson Blu Carlton Hotel",
+                        "description": "Reservation was made under your name and Slovakation Travel company.",
+                        "type": "accommodation",
+                        "location": "https://www.google.com/maps/place/Radisson+Blu+Carlton+Hotel,+Bratislava/@48.1416847,17.10924,16z/data=!3m1!1e3!4m8!3m7!1s0x476c89429c90b5c3:0x563aa2114eac4552!5m2!4m1!1i2!8m2!3d48.141343!4d17.1088383",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "address",
+                                "title": null,
+                                "text": "Hviezdoslavovo namestie 3, Bratislava"
+                            },
+                            {
+                                "icon": "other",
+                                "title": null,
+                                "text": "Bus stop nearby: Most SNP" 
+                            }
+                        ]
+                    }
+                ],
+                "extra_tips": "Toto je text, akože nejaký extra tip, ktorý má byť v textovom poli. Lorem ipsum hodvágy kemeshzét igýanok szorozsom ugvacsák azamát."
+            },
+            {
+                "id": 2,
+                "day": 1,
+                "title": "SIGHTS TO SEE IN BRATISLAVA",
+                "description": "If you arrive to Bratislava in the morning and still have time to explore the city, you can for example follow this free audio guide tour through the streets of Old Town.",
+                "type": "activity",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/self-drive-slovakia.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "website",
+                        "title": null,
+                        "text": "https://izi.travel/en/4e2d bratislava-city-tour/en"
+                    }
+                ],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Bratislava castle",
+                        "description": "The former seat of the rulers, today the symbol of Bratislava and the seat of the Museum of History. There is a wonderful view of the city and the neighbouring countries from its 47-metre high crown tower in which royal coronation jewels used to be deposited.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Bratislavsk%C3%BD+hrad/@48.1421122,17.0980461,17z/data=!3m1!4b1!4m5!3m4!1s0x476c895d93b150c5:0x2fd320efbc06a139!8m2!3d48.1421086!4d17.1002348",
+                        "arrival_time": "7:30",
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/self-drive-slovakia.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "Entry fee: 10 €"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "Blue church",
+                        "description": "The St. Elizabeth’s church built in the Art Nouveau style at the beginning of the 20th century is remarkable for the blue colour of its façade made with attention to detail with often use of mosaic. It is a popular place for weddings and baptisms.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Modr%C3%BD+Kostol+sv.+Al%C5%BEbety/@48.1430053,17.1166984,16z/data=!3m1!1e3!4m5!3m4!1s0x476c8941051a8fd9:0x4df6484855bfbe36!8m2!3d48.1433427!4d17.1167126",
+                        "arrival_time": "8:30",
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/blue-church.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    },
+                    {
+                        "id": 3,
+                        "title": "Slavin",
+                        "description": "The largest war memorial in Central Europe is thanks to its height of 52 metres one of the dominating features of the city skyline. It is the burial ground of 6845 soldiers of the Soviet army who died during the liberation of Bratislava in World War II.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Vojensk%C3%BD+pam%C3%A4tn%C3%ADk+Slav%C3%ADn/@48.1532352,17.1005744,17z/data=!3m1!1e3!4m5!3m4!1s0x476c8957e6c49333:0xf45a2f4a89dd2dae!8m2!3d48.1538779!4d17.0997195",
+                        "arrival_time": "9:30",
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/slavin.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    },
+                    {
+                        "id": 4,
+                        "title": "The streets of Old town",
+                        "description": "The Old Town includes the historic centre and adjoining neighbourhoods that used to be the centre's immediate outskirts in the Middle Ages. We highly recommend to go for an evening walk and explore all charming narrow streets. While wandering through the center, you will come along places like – Michael´s gate, Primate´s palace, Slovak National Theatre and couple of historic squares.",
+                        "type": "activity",
+                        "location": null,
+                        "arrival_time": "10:30",
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/streets-of-old-town.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "day": 1,
+                "title": "PLACES TO EAT",
+                "description": null,
+                "type": "restaurant",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Modra Hviezda (Blue Star)",
+                        "description": "Historic restaurant situated below the Bratislava Castle serving local menu with modern approach. Booking recommended via website.",
+                        "type": "restaurant",
+                        "location": "https://www.google.com/maps/place/Modr%C3%A1+Hviezda/@48.141663,17.1011503,16z/data=!3m2!1e3!4b1!4m5!3m4!1s0x476c896786452b7f:0xdc31118082e11636!8m2!3d48.141663!4d17.103339",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "http://modrahviezda.sk/?lang=en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "BeAbout",
+                        "description": "One of the best burger and street-food restaurants in Bratislava. Situated close to river  Danube.",
+                        "type": "restaurant",
+                        "location": "https://www.google.com/maps/place/BeAbout/@48.1406804,17.1131148,17z/data=!3m1!4b1!4m5!3m4!1s0x476c8941da348643:0xe80c4325664b04a2!8m2!3d48.1406804!4d17.1153035",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "https://www.beabout.sk/en/beabout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "title": "Sky Bar",
+                        "description": "Rooftop restaurant and bar with great drinks, food and amazing rooftop panorama view.",
+                        "type": "bar",
+                        "location": "https://www.google.com/maps/place/Lemontree+%26+Sky+Bar+Restaurant+Bratislava/@48.1408216,17.1064658,17z/data=!3m1!1e3!4m5!3m4!1s0x0:0xcedd978d03899a16!8m2!3d48.1410907!4d17.1072223",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "http://www.skybar.sk/home"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "title": "Bratislavský Meštiansky Pivovar",
+                        "description": "Great own beer and atmosphere.",
+                        "type": "bar",
+                        "location": "https://www.google.com/maps/place/Me%C5%A1tiansky+pivovar/@48.1481169,17.107884,17z/data=!3m1!1e3!4m5!3m4!1s0x0:0x6e453e3fa6950615!8m2!3d48.146965!4d17.1081731",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "http://www.mestianskypivovar.sk/en/home"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "day": 2,
+                "title": "Central Slovakia",
+                "description": "You will spend your day and night in Central Slovakia. The rich mining industry tradition, which generated considerable wealth in a number of towns, is still visible through architecture built from those profits. The wooden church Hronsek, a UNESCO sight, is also in Central Slovakia and is among the biggest attractions in the region. \n\nBanska Štiavnica, the former mining town is one of the most beautiful and in historical terms one of the most interesting towns in Slovakia, nowadays listed in UNESCO World Heritage List. \n\nHronsek, the Evangelical church in Hronsek, built entirely from wood with no nails in 1726, is one of eight wooden structures of Slovakia that was added to UNESCO´s World Heritage List in 2008. \n\nBanska Bystrica is the cultural and economic centre of central Slovakia. The town played a significant role in the Slovak National Uprising (SNP), when the armed resistance against the Nazi occupation aroused here on 29th August 1944. \n\nA possible schedule for today would be: \n\n09:30 Departure from Bratislava \n11:30 Arrival to Banska Stiavnica for a wander and lunch \n14:00 Departure from Banska Stiavnica \n14:30 Arrival to Hronsek \n15:00 Departure from Hronsek \n15:30 Arrival to Banska Bystrica and to hotel \nLate afternoon Possible trip to Špania dolina with departure at 17:30 \n19:00 Arrival back to Banska Bystrica and to hotel",
+                "type": "activity",
+                "location": "https://www.google.com/maps/dir/Bratislava/Bansk%C3%A1+%C5%A0tiavnica/Hronsek/Hotel+Kuria,+Bansk%C3%A1+Bystrica/@48.4419448,17.5692878,22z/data=!3m2!1e3!4b1!4m26!4m25!1m5!1m1!1s0x476c89360aca6197:0x631f9b82fd884368!2m2!1d17.1077478!2d48.1485965!1m5!1m1!1s0x471532da0c4e3f1f:0xb7b95f1d8cf0a454!2m2!1d18.9086908!2d48.449576!1m5!1m1!1s0x4715392a98f3067f:0x57cfd32656081a2d!2m2!1d19.1559045!2d48.6504611!1m5!1m1!1s0x47153df814336715:0xbd4785bf68836adc!2m2!1d19.1454971!2d48.7379306!3e0?hl=en-US&shorturl=1",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Starting point: Bratislava"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Ending point: Banská Bystrica"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Overnight: Banská Bystrica – Hotel Kuria"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Distance: 240 km"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Driving time: 3:00 hrs"
+                    }
+                ],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "YOUR HOTEL - Hotel Kuria",
+                        "description": null,
+                        "type": "accommodation",
+                        "location": null,
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "address",
+                                "title": null,
+                                "text": "Banská Bystrica"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "day": 2,
+                "title": "1st stop – BANSKA ŠTIAVNICA – UNESCO World Heritage",
+                "description": "Banska Stiavnica is a small, but beautiful medieval town, listed in UNESCO World Heritage. The town had its glory days in the 18th and 19th centuries, during the gold and silver rush. We recommend to take a stroll through the old and narrow streets of the old town centre. Possibly you can visit one of the museums or just walk along the sights mentioned in this program. If you would like to get a better view of the town, go for a walk to Calvary. You will get a beautiful view from over there.",
+                "type": "activity",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "recommended_time_to_spend",
+                        "title": null,
+                        "text": "2:30 hrs"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "https://goo.gl/maps/XaXTeXdgSkt"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "Other possible parking: https://goo.gl/maps/X9D4iMgtggz"
+                    }
+                ],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Starý zámok (Old castle)",
+                        "description": "The Old Castle is the dominant masonry structure near the centre of the town. Exploring this structure offers the opportunity of understanding how mediaeval towns evolved. What had been the town church became the town castle and, with Gothic and Renaissance reconstructions, remained so until the late 18th century when the threat of Ottoman raids ceased. Visitors are welcomed to climb the tower and view the town and surrounding area.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Star%C3%BD+Z%C3%A1mok/@48.4589711,18.8923271,18z/data=!3m1!1e3!4m5!3m4!1s0x471532d01938af4d:0xd901491b94f17701!8m2!3d48.4596299!4d18.891248",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "https://www.muzeumbs.sk/en/old-castle"
+                            },
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "May-Sept 9:00-17:00"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "From 3 EUR, Guided tour in foreign language 15 EUR"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "Nový zámok (New castle)",
+                        "description": "Built in 1564-1571 to protect the town from the Ottoman invasions and hardly a castle at all, the building now houses a unique collection of weapons and defence equipment.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Nov%C3%BD+Z%C3%A1mok/@48.4567856,18.8907928,18z/data=!3m1!1e3!4m5!3m4!1s0x0:0x23fe25a3836a7662!8m2!3d48.4557913!4d18.8961303",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "https://www.muzeumbs.sk/en/new-castle"
+                            },
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "May-Sept 9:00-17:00"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "From 2 EUR, Guided tour in foreign language 15 EUR"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "title": "Kalvária (Calvary)",
+                        "description": "The striking mountainside Calvary is grand, culminating in three churches, 19 chapels and a sculpture of the Virgin Mary spread across a steep hill just outside the city. Designed as a symbolic depiction, the whole complex depicts the Christian passion from the Last Supper to the crucifixion and resurrection and Seven Sorrows of the Virgin Mary.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Infocentrum+-+Kalv%C3%A1ria/@48.4617554,18.9076907,16z/data=!3m1!1e3!4m5!3m4!1s0x471533275b96bb65:0xea7dd65ee8655ed1!8m2!3d48.4618408!4d18.9077067",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "May-Sept 9:00-17:00"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "Free"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "title": "Kostol sv. Kataríny (Church of St Catherine)",
+                        "description": "Built between 1488 and 1491 in late Gothic style, the Church of St Catherine stands next to the Town Hall. The church is notably unchanged from how it looked when it was built, maintaining its architectural integrity.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Kostol+sv.+Katar%C3%ADny/@48.4589397,18.8919868,16z/data=!3m1!1e3!4m5!3m4!1s0x0:0xda3e51f78047324d!8m2!3d48.4588241!4d18.8929928",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "May-Sept 9:00-17:00"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "Free"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "title": "Betlehem of Banska Striavnica",
+                        "description": "Movable wooden Bethlehem depicting life, work habits and traditional activities in the region of Banska Stiavnica.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Bansko%C5%A1tiavnick%C3%BD+betlehem/@48.458408,18.891234,15z/data=!3m1!1e3!4m5!3m4!1s0x0:0xc1e4a0f12a58c1e3!8m2!3d48.4583973!4d18.8922544",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Currently only in Slovak and Spanish language: https://www.betlehem.sk"
+                            },
+                            {
+                                "icon": "address",
+                                "title": null,
+                                "text": "Nearby the Church of St. Catherine, located in the yard."
+                            },
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "May-Oct 10:00-17:00, Nov-Apr: 10:00-16:00"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "1,5 EUR"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "day": 2,
+                "title": "PLACES TO EAT in Banska Stiavnica",
+                "description": null,
+                "type": "restaurant",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "ERB",
+                        "description": "Tasty restaurant with own brewery.",
+                        "type": "restaurant",
+                        "location": "https://www.google.com/maps/place/Pivovar+ERB/@48.4580515,18.8929637,17z/data=!3m1!1e3!4m5!3m4!1s0x471532d0f773c575:0xf523c24a241c54cd!8m2!3d48.4581629!4d18.8934448",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "https://pivovarerb.sk/en/restaurant/"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "4SOCHY",
+                        "description": "Restaurant right on the main street. They cook with fresh and local ingredients. They change their menu almost daily and offer just couple of meals.",
+                        "type": "restaurant",
+                        "location": null,
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Only in Slovak language: http://www.4sochy.sk/"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "title": "DIVNA PANI",
+                        "description": null,
+                        "type": "coffee",
+                        "location": "https://www.google.com/maps/place/Divn%C3%A1+Pani+Caff%C3%A9/@48.458757,18.8931717,19z/data=!3m1!1e3!4m5!3m4!1s0x471532d08d00f94d:0x60999138055b5383!8m2!3d48.458757!4d18.8944202",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    },
+                    {
+                        "id": 4,
+                        "title": "ARCHANJEL",
+                        "description": null,
+                        "type": "coffee",
+                        "location": "https://www.google.com/maps/place/ARCHANJEL+caffe+bar/@48.4586943,18.8923272,16z/data=!3m1!1e3!4m5!3m4!1s0x0:0xb1b059f2b26e7f33!8m2!3d48.4586943!4d18.892327",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "day": 2,
+                "title": "2nd stop – HRONSEK – UNESCO World Heritage – RECOMMENDED",
+                "description": "The Evangelical church in Hronsek, built entirely from wood with no nails, is one of eight wooden structures of Slovakia that was added to UNESCO´s World Heritage List in 2008. The church was completed in 1726.",
+                "type": "activity",
+                "location": "https://www.google.sk/maps/place/Dreven%C3%BD+artikul%C3%A1rny+kostol+Hronsek/@48.6508421,19.1576273,18z/data=!3m1!1e3!4m5!3m4!1s0x4715392bd69edb4d:0xf6a0fe6df34d066d!8m2!3d48.6489731!4d19.1548964",
+                "arrival_time": "7:30",
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "recommended_time_to_spend",
+                        "title": null,
+                        "text": "0:30 hrs"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "The church is easy to find as many road signs have been posted to mark the way. There is no car park by the church. Park the car on the driveway."
+                    },
+                    {
+                        "icon": "fee",
+                        "title": null,
+                        "text": "Voluntary"
+                    },
+                    {
+                        "icon": "opening_hours",
+                        "title": null,
+                        "text": "Mon-Sun 9:00-17:00, during the touristy season (Jun-Sept). The church may be close in the off-season."
+                    }
+                ],
+                "activity": []
+            },
+            {
+                "id": 8,
+                "day": 2,
+                "title": "3rd stop – BANSKA BYSTRICA – overnight",
+                "description": "Banska Bystrica – the town under the Urpin mountain, as Slovaks refer to Banska Bystrica, was once along with Banska Stiavnica and Kremnica, one of the three wealthiest mining towns in central Slovakia. The immense wealth arising from mining is still reflected in the architecture of the city, most notably in the town castle, the Church of the Assumption of the Virgin Mary, the old town hall, the remaining vestiges of the fortifications, and the main square. The town played a significant role in the Slovak National Uprising (SNP), when the armed resistance against the Nazi occupation ignited here on August 29, 1944. The SNP Museum, documenting the event of anti-fascist revolt, is also located in Banska Bystrica.",
+                "type": "activity",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "recommended_time_to_spend",
+                        "title": null,
+                        "text": "Rest of the day"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "Right by your hotel – Hotel Kuria"
+                    }
+                ],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Mestsky hrad (Town castle)",
+                        "description": "The Town castle was once a church that was protected by fortifications and a moat. At one time Banska Bystrica was a prosperous mining town, and the castle was built to protect the income from precious metal mining.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Banska+Bystrica+Castle/@48.7372566,19.1459529,17z/data=!3m1!1e3!4m5!3m4!1s0x47153df84f2d07bf:0xf65380aa03a3afdb!8m2!3d48.7366596!4d19.1463878",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "exterior views only"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "Hodinova veža (Clock Tower)",
+                        "description": "At the top of the square there is the yellow-fronted clock tower from the 16th century, which has two clock-faces and a narrow balcony beneath its black and gold domed cap. As a result of the collapse of a neighbouring building, the tower leans to the left by 68 centimetres in a rather disturbing manner. It offers a panoramic view of the town and surrounding valley.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/Hodinov%C3%A1+ve%C5%BEa/@48.7362258,19.1458767,17z/data=!3m1!1e3!4m5!3m4!1s0x47153df9b27b104d:0x92a49367a7121e70!8m2!3d48.7358954!4d19.1462356",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "Mon-Sun 10:00-19:00 in summer season May-Sept"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "1 EUR"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "title": "Muzeum Slovenskeho narodneho povstania (Museum of Slovak National Uprising)",
+                        "description": "The distinctive grey building, designed by Dušan Kuzma and completed in 1969, is divided into two parts connected by a bridge. The gap represents the Slovak National Uprising (SNP) as a milestone in the life of the Slovak nation during World War II. Slovakia was a satellite of Nazi Germany when on August 29, 1944 the SNP erupted into a revolt against the Nazis. Despite the uprising being suppressed in late October 1944, Slovakia ultimately changed sides and ended the war on the side of the Allies. The museum houses a permanent exhibition devoted to crucial political and military events in Slovakia from 1918 to 1948.",
+                        "type": "activity",
+                        "location": "https://www.google.com/maps/place/M%C3%9AZEUM+SNP/@48.7350658,19.1503099,16z/data=!3m1!1e3!4m5!3m4!1s0x47153df928a4dca9:0xca0a0c669bafb8da!8m2!3d48.73522!4d19.149868",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Only in Slovak language: http://www.muzeumsnp.sk/"
+                            },
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "May-Sept: Tue-Sun 9:00-18:00, Oct-Apr: Tue-Sun 9:00-16:00"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "2 EUR"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "day": 2,
+                "title": "EXTRA TIPS - Spanie dolina valley",
+                "description": "If you arrive to Banska Bystrica too early, you can make an extra trip to Špania dolina. Another former mining village, located in beautiful settings. The drive takes around 15-20 minutes. \n\nThis ancient village with a long mining history attracts many tourists because of the picturesque houses and the beautiful Church of the Transfiguration dating back to 1254.",
+                "type": "activity",
+                "location": "https://www.google.com/maps/place/974+01+%C5%A0pania+Dolina/@48.8023705,19.0942753,13z/data=!3m1!4b1!4m5!3m4!1s0x4715171824e8259b:0x400f7d1c6970610!8m2!3d48.8074378!4d19.1340359",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "When you enter the village and see the first houses, just keep driving straight and you will arrive to the main parking spot, below the church and restaurants around the car park. Leave your car there."
+                    }
+                ],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Tip for your visit of Spania Dolina",
+                        "description": "Leave your car at the car park and go for a walk to the heap Maximilian. You will get a beautiful panoramic view from over there. \n\nHow to get there?  \n\nWhen you stand on the car park facing the church, walk towards the church. Don´t walk the staircase to the church, but turn left to a tiny street going uphill. Walk the road. After 250m the road turns right and goes further uphill. After next 300m the heap will be on your right. Look for an obtrusive path to the right, going directly to heap. You can further follow the path, which is an educational trail and it will take you to the hills and forests above the village and then bring you back to the village and car park. The whole walk takes around 60-90 minutes.",
+                        "type": null,
+                        "location": "https://www.google.com/maps/place/Halda+Maximili%C3%A1n/@48.8130354,19.1336989,18z/data=!3m1!1e3!4m5!3m4!1s0x47151724bd187edd:0x5c068b9f08bf332f!8m2!3d48.8091051!4d19.1348952",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "day": 2,
+                "title": "PLACES TO EAT in Banska Bystrica",
+                "description": null,
+                "type": "restaurant",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Bernardov dvor",
+                        "description": "International cuisine, beer from smaller and local breweries.",
+                        "type": "restaurant",
+                        "location": "https://goo.gl/maps/e2enQ6TQJa62CMPa9",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Menu: http://www.bernardovdvor.sk/Bernardovdvor/jedalny_listok.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "Leroy Bar & Café",
+                        "description": "Very nice place with nice interior, tasty coffee and service.",
+                        "type": "coffee",
+                        "location": "https://goo.gl/maps/p4BaX3kSTJRv4nTN9",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    },
+                    {
+                        "id": 3,
+                        "title": "Bernardov dvor",
+                        "description": "International cuisine, beer from smaller and local breweries.",
+                        "type": "restaurant",
+                        "location": "https://goo.gl/maps/e2enQ6TQJa62CMPa9",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Menu: http://www.bernardovdvor.sk/Bernardovdvor/jedalny_listok.html"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "day": 3,
+                "title": "On the way to Tatras",
+                "description": null,
+                "type": "activity",
+                "location": "https://goo.gl/maps/GED76HDmqy8vrRnK8",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Starting point: Banska Bystrica"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Ending point: Stary Smokovec"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Overnight: Hotel Grand Smokovec"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Distance: 207 km"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Driving time: 3:30 hrs"
+                    }
+                ],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "YOUR HOTEL for the next 4 nights - Grand Hotel Smokovec",
+                        "description": "A possible schedule for today would be: \n\n09:00 Departure from Banska Bystrica \n10:00 Arrival to Vlkolinec \n11:00 Departure from Vlkolinec \n12:00 Arrival to Oravsky Castle \n14:30 Departure from Oravsky Castle \n15:30 Arrival to Svaty kriz \n16:00 Departure from Svaty kriz \n17:00 Arrival to hotel \n\nToday you will be travelling further North to visit a small charming village in the hills - Vlkolinec, one of the best preserved castles of Slovakia – Orava castle, one of the biggest wooden churches in Central Europe (which is not located in its´ original place anymore) – Svaty kriz and there are also couple of more options for you, if you don´t like some of the suggested places.",
+                        "type": "accommodation",
+                        "location": "https://goo.gl/maps/caDARtCaoLCSMeEeA",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "address",
+                                "title": null,
+                                "text": "Stary Smokovec"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "day": 3,
+                "title": "1st stop – VLKOLINEC – (UNESCO)",
+                "description": "The village of Vlkolinec is a very well preserved typical central-Slovak settlement in the mountains, which represents the mountainous style of living in 18th and 19th centuries. It´s pretty small and walking around the village shouldn´t take you more than approx. 30-45 minutes. \n\nVlkolinec is not an open-air museum, but it´s a living village. Majority of the houses are holiday houses now and have private owners. In one of the houses is an exhibition and you can see, how people used to live in the past and features exhibits of antique furniture and tools. Its most unique constructions are a well and a belfry, both built in 1770.",
+                "type": "activity",
+                "location": "https://goo.gl/maps/zuqyJeJAbup",
+                "arrival_time": "21:30",
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "recommended_time_to_spend",
+                        "title": null,
+                        "text": "1:00 hrs"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "There is a really narrow road going right to the entrance of the village. You  are not allowed to drive inside. You have to park by the entrance. This place  can be busy during the highest touristy season. But if you arrive in the morning, you shouldn´t have a problem to park right by the entrance."
+                    },
+                    {
+                        "icon": "fee",
+                        "title": null,
+                        "text": "2 EUR/person, 1 EUR parking fee"
+                    }
+                ],
+                "activity": []
+            },
+            {
+                "id": 13,
+                "day": 3,
+                "title": "2nd stop – ORAVSKY CASTLE",
+                "description": "The Orava castle is considered to be one of the most beautiful and most preserved castles of Slovakia. It is perched high on a cliff 112 meters above the Orava river. Because of its historical importance, its unique construction as well as the impressive manner in which is was architecturally integrated into its natural setting, it was declared a national cultural monument in 1961. Its construction dates to the 13th century. It was initially constructed out of wood before it was rebuilt in stone after the Tartar invasion in 1241.",
+                "type": "activity",
+                "location": "https://goo.gl/maps/LfYRQQSHaL92",
+                "arrival_time": "14:30",
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "recommended_time_to_spend",
+                        "title": null,
+                        "text": "2:30 hrs"
+                    },
+                    {
+                        "icon": "web",
+                        "title": null,
+                        "text": "https://www.oravskemuzeum.sk/en/exhibition/orava-castle"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "We recommend to park your car below the castle. Location: https://goo.gl/maps/P4HRmEhQ8eR2"
+                    },
+                    {
+                        "icon": "fee",
+                        "title": null,
+                        "text": "7 EUR/person, 3 EUR parking. Entrance with a guide only."
+                    },
+                    {
+                        "icon": "opening_hours",
+                        "title": null,
+                        "text": "May-Jun: 8:30-17:30, July-Aug: 8:30-18:00, Sept: 8:30-17:00, Oct: 8:30-16:00"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "English tour: They organize English tours to the castle approx. every 2 hours. This is mostly happening in July and Aug. Otherwise you will be part of Slovak tour."
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Audio guide App: https://www.oravskemuzeum.sk/orava-castle-audioguide/"
+                    }
+                ],
+                "activity": []
+            },
+            {
+                "id": 14,
+                "day": 3,
+                "title": "3rd stop – SVATY KRIZ",
+                "description": "The church in in Svaty kriz (eng. Saint Cross) is one of the largest wooden churches in Europe. It was built in the 18th century in the village of Paludza as a centre for Evangelical Christians. This church does not stand in its original location, a fact that may have caused it to lose a place on the UNESCO World Heritage List. In 1974, the village of Paludza was inundated and destroyed during the construction of the Liptovska Mara water reservoir and the huge church, which has an estimated capacity of 4000 people, was disassembled and moved to its present site. It contains a baroque wooden altar from 1693, as well as a wooden pulpit, a Venetian glass chandelier and an impressive vault. The church is still used for religious services as well as occasional concerts.",
+                "type": "activity",
+                "location": "https://goo.gl/maps/ocSaYyREqqB2",
+                "arrival_time": "17:30",
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "recommended_time_to_spend",
+                        "title": null,
+                        "text": "0:30 hrs"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "The car park is right next to the church and it´s for free."
+                    },
+                    {
+                        "icon": "fee",
+                        "title": null,
+                        "text": "1 EUR/person"
+                    },
+                    {
+                        "icon": "opening_hours",
+                        "title": null,
+                        "text": "Oct-May: 9:00-15:00, Jun-Sept: 9:00-17:00"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "English tour: It is possible to listen to English comment on a CD. Just tell the personnel to  do so for you."
+                    }
+                ],
+                "activity": []
+            },
+            {
+                "id": 15,
+                "day": 3,
+                "title": "EXTRA TIPS",
+                "description": null,
+                "type": "activity",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "DONOVALY - summer and winter mountain resort",
+                        "description": "On the way to your first stop – Vlkolinec, you will be driving through a mountain pass – DONOVALY. This is a popular summer and winter resort. You can also stop there and enjoy the surroundings. If you are interested in nature and panoramic views, we recommend to take the cable car up to the mountain Nova Hola, which is 1500m high. You will spend here approx. 60-90 minutes.",
+                        "type": "activity",
+                        "location": "https://goo.gl/maps/ancta2ubiHF2",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "parking",
+                                "title": null,
+                                "text": "Right next to the cable car."
+                            },
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "https://www.parksnow.sk/leto/en/index.php"
+                            },
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "Cable car runs every half an hour. 9:00-17:00 every day, July-Aug 8:00-18:00."
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "10 EUR/person return ticket, 5 EUR parking"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "DEMANOVSKA JASKYNA SLOBODY (DEMANOVSKA CAVE OF LIBERTY)",
+                        "description": "The Demänovska cave of Liberty is one of the most visited caves in Slovakia thanks partly to its location in the Demänovska valley, a popular tourist destination. The cave is known for its rich colours, ranging from white, through various shades of brown to black. In the cave you can also see a 60-metre waterfall as well as a cave organ consisting of stalagmites.",
+                        "type": "activity",
+                        "location": "https://goo.gl/maps/vc4geucrVWp",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "http://www.ssj.sk/en/jaskyna/4-demanovska-cave-of-liberty"
+                            },
+                            {
+                                "icon": "parking",
+                                "title": null,
+                                "text": "You have to park the car by the main road at the car park. Afterwards walk  uphill for about 15-20 minutes to the entrance."
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "8 EUR/person, 6 EUR parking. Entrance with a guide only."
+                            },
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "Open Jan-15th Nov. Monday closed. June-Aug: 9:00-16:00, entrance every hour. Other months: 9:30-14:00, entry every 90 minutes."
+                            },
+                            {
+                                "icon": "other",
+                                "title": null,
+                                "text": "English tour: Only if there are enough English speaking visitors"
+                            },
+                            {
+                                "icon": "other",
+                                "title": null,
+                                "text": "Make sure you have some warm clothes with you as the temperature in the cave is around 6°C on average and air humidity of 94-99%. It´s forbidden to eat and drink inside of the cave."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "title": "WOODEN CHURCH IN LESTINY",
+                        "description": "The construction of the hilltop Articular Evangelical wooden church in Leštiny started in 1688. Leštiny is one of the 8 Slovak wooden churches that are listed in UNESCO.",
+                        "type": "activity",
+                        "location": "https://goo.gl/maps/Jzd5zVna6Dv",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "parking",
+                                "title": null,
+                                "text": "There is no parking spot, which is a problem. You may leave the car for a  couple of minutes on the main road and have a quick look around the church."
+                            },
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "Unfortunately it´s usually closed and possible exterior views only."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "title": "NATURAL HOT SPRINGS in Kalameny",
+                        "description": "Small natural pool with depth of approx. 0,5m and warm geothermal water. It´s situated right next to a road. The water is around 30-32°C warm. There are no changing facilities. It may be crowded during the day in summer. It´s better to visit the place in the evening. Especially after rain the surroundings of the pool may be muddy.",
+                        "type": "activity",
+                        "location": "https://goo.gl/maps/VoF9PEooZx9VFr956",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "parking",
+                                "title": null,
+                                "text": "Nearby the springs. Sometimes you need to pay couple of EUR."
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "Free"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "title": "NATURAL HOT SPRINGS in Liptovsky Jan",
+                        "description": "Tiny natural pool with geothermal water, which is around 20-22°C warm. It´s quite popular in summer and can get very crowded. You may wait in line to get inside. You shouldn´t stay in the water more than 20 minutes. If you feel like your skin is itching when you get out of the water, don ´t panic, it´s just a healthy side effect. Taste the water from the spring, which is situated in the There are changing facilities, but very simple.",
+                        "type": "activity",
+                        "location": "https://goo.gl/maps/eJBKvkonrqcyEnCK6",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "parking",
+                                "title": null,
+                                "text": "Car park in front of church (https://goo.gl/maps/PBQtMsrxPh5GCCSd9)"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "Free"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "title": "TATRALANDIA WATERPARK near Liptovsky Mikulas",
+                        "description": "Tatralandia is an amusement and water park and usually very appreciated place by kids. It is  located in the region of Liptov. There are 14 different pools filled with salt water, thermal or fresh  water. You can choose from around 30 different tubes and water slides.",
+                        "type": "activity",
+                        "location": "https://goo.gl/maps/nawcbysVgMNURXcd7",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "https://www.tatralandia.sk/en/"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "From 24 EUR/person"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "day": 3,
+                "title": "PLACES TO EAT",
+                "description": null,
+                "type": "restaurant",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Koliba Likavka",
+                        "description": "Good place for lunch on the way back from the Orava castle. Traditional Slovak cuisine.",
+                        "type": "restaurant",
+                        "location": "https://goo.gl/maps/ofXTSYRUxP9B13pg7",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Menu: http://www.kolibalikava.sk/en/menu"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "Wega Caffé",
+                        "description": "Simple cafe in an unexpected place. Really tasty coffee in case you would like to have an afternoon cup on the way to your hotel.",
+                        "type": "coffee",
+                        "location": "https://goo.gl/maps/kHmxkRXWF8HANt7ZA",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "day": null,
+                "title": "PLACES FOR DINNER on the next days",
+                "description": "For the next couple of nights you will be staying in the same hotel. Therefore we are giving you couple of options, where we recommend you to have dinner.",
+                "type": "restaurant",
+                "location": "https://g.page/KolibaKamzik?share",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Koliba Kamzík (Stary Smokovec)",
+                        "description": "Traditional Slovak dishes with cozy interior and reasonable prices.",
+                        "type": "restaurant",
+                        "location": null,
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    },
+                    {
+                        "id": 2,
+                        "title": "Gasperov mlyn (Batizovce)",
+                        "description": "Seasonal cuisine, often listed in TOP 10 restaurants of Slovakia!!",
+                        "type": "restaurant",
+                        "location": "https://goo.gl/maps/e2enQ6TQJa62CMPa9",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Menu (only in Slovak language): http://www.cervenyrak.sk/"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "title": "Vino & Tapas (Poprad)",
+                        "description": "Fine dinning restaurant nearby the Tatra mountains in the town of Poprad. It´s open only in the evenings, with seasonal menu and hosting chefs from all over the world every now and then. Often listed among best restaurants of Slovakia.",
+                        "type": "restaurant",
+                        "location": "https://goo.gl/maps/CVh3dv8AE2W1rd8y6",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": []
+                    },
+                    {
+                        "id": 4,
+                        "title": "Olivia Restaurant (Stary Smokovec)",
+                        "description": "Italian restaurant in Tatra mountains with stylish interior.",
+                        "type": "restaurant",
+                        "location": "https://g.page/oliviarestaurantsmokovec?share",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "https://www.oliviarestaurant.sk/en"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "day": 4,
+                "title": "UNESCO Spiš region",
+                "description": "A possible schedule for today would be: \n\n09:00 Departure from hotel \n09:45 Arrival to Spissky castle \n11:45 Departure from Spissky castle \n12:00 Arrival to Levoca - lunch \n14:30 Departure from Levoca \n15:00 Arrival to Kezmarok \n16:30 Departure from Kezmarok \n16:45 Arrival to Vrbov \n19:30 Departure from Vrbov \n20:00 Arrival back to hote \n\nSpiš region is a unique area in Slovakia. The majority of all UNESCO World Heritage sites is situated in this region and you will spend your whole day there today. Visiting places like the Spiš castle, Levoča, Kežmarok is a must. And because it will be a long day with lot of walking, we also suggest you to visit local thermal pools in Vrbov in the evening on the way back to hotel. The geothermal water with full of mineral has many beneficial effects for your body, so you shouldn´t miss this place.",
+                "type": "activity",
+                "location": "https://goo.gl/maps/TkqTdC4CnmuQXA688",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Starting point: Stary Smokovec"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Ending point: Stary Smokovec"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Overnight: Grand Hotel Smokovec"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Distance: 120 km"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "Driving time: 1:45"
+                    }
+                ],
+                "activity": []
+            },
+            {
+                "id": 19,
+                "day": 4,
+                "title": "1st stop – Spiš castle (UNESCO)",
+                "description": "One of the largest castles in Slovakia, spreading over 41000 square metres, Spiš Castle is an exceptional example of medieval fortification architecture. The castle has great strategic location and was built in the beginning of the early 12th century. The castle was recognised as a national monument in 1961 and was included on the UNESCO World heritage List in 1993.",
+                "type": "activity",
+                "location": "https://goo.gl/maps/LDAmSQ7Wi9R2",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "recommended_time_to_spend",
+                        "title": null,
+                        "text": "2:00 hrs"
+                    },
+                    {
+                        "icon": "fee",
+                        "title": null,
+                        "text": "8 EUR"
+                    },
+                    {
+                        "icon": "website",
+                        "title": null,
+                        "text": "https://www.spisskyhrad.com/english/spis-castle/"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "Free parking at the car park right below the castle"
+                    },
+                    {
+                        "icon": "opening_hours",
+                        "title": null,
+                        "text": "9:00-18:00"
+                    },
+                    {
+                        "icon": "other",
+                        "title": null,
+                        "text": "You can borrow an audioguide for free. You will just pay 10 EUR  deposit, which will be given back to you after the visit of the castle. When buying tickets, you can ask for an English speaking tour. There might be some going on, which you can possibly join."
+                    }
+                ],
+                "activity": []
+            },
+            {
+                "id": 20,
+                "day": 4,
+                "title": "2nd stop - The town of Levoča (UNESCO)",
+                "description": "Levoča´s location as a mains tip on the trade route between Poland and Hungary contributed to its  ability to maintain diverse income streams from the past to the present. \n\nThe very centre of the town is the Square of Master Paul of Levoča (already mentioned, when you  were visiting Banska Bystrica), which is named after the town´s most famous citizen, the acclaimed  woodcarving artist Master Paul.",
+                "type": "activity",
+                "location": "https://goo.gl/maps/L1eS7om3Jc52",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "recommended_time_to_spend",
+                        "title": null,
+                        "text": "2:30 hrs"
+                    },
+                    {
+                        "icon": "website",
+                        "title": null,
+                        "text": "http://slovakia.travel/en/levoca"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "Paid parking at the main square everyday from 9 till 17:00"
+                    }
+                ],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Church of St James",
+                        "description": "The main claim to fame for the second largest Gothic church in Slovakia is the St James altar. It is the tallest Gothic altar in the world (18.62 m), and was carved from lime wood by the famous Master Paul. He began to work on the altar in 1506 or 1507 and finished it several years later. His carvings are known for their gently downcast eyes, expressive facial features, signature ear shapes and the folds of the clothes.",
+                        "type": "activity",
+                        "location": "https://goo.gl/maps/Psikx7iDEDn",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "address",
+                                "title": null,
+                                "text": "Right in the centre of the square"
+                            },
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "Entry every hour. 10:00-16:00. It is not possible to visit the church during  mass, baptism or marriage. On Saturdays it is recommended to visit the church in the morning hours, because in the afternoon there are usually private wedding ceremonies."
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "3 EUR – Buy the tickets in the Town hall opposite the main entrance."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "Museum of Master Paul",
+                        "description": "Master Paul´s house is directly across the street from the Church of St James. Arguably the town´s most famous citizen, he carved altars and statues for both Catholic and Protestant churches in the area. Details of his life and work are exhibited in the museum at the house where he lived in circa 1510. One popular display is a copy of the bottom panel of the St James altar, the Last Supper, which was exhibited at the 1967 World Expo in Montreal and won first place in art.",
+                        "type": "activity",
+                        "location": "https://goo.gl/maps/XGgWnFQNxJJ2",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "opening_hours",
+                                "title": null,
+                                "text": "Mon-Sun 9:00-17:00"
+                            },
+                            {
+                                "icon": "fee",
+                                "title": null,
+                                "text": "3,50 EUR"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "day": 4,
+                "title": "3rd stop - PILGRIMAGE SITE – The church of Virgin Mary at Marianska Hill Beautiful VIEWPOINT",
+                "description": "You can drive (or walk) to the church of Virgin Mary at Marianska Hill, which is situated above the  town. You will get a nice view from over there. It´s a pilgrimage site. \n\nThe world famous pilgrimage site Marianska Hill overlooks the town. Villagers built the church in gratitude to the virgin Mary for saving their lives as they hid behind the hill undiscovered while evading the Tartars, who invaded the area in the 13th century. Though it is open all year, the site sees the most action on the first Sunday in July. Pope John Paul II designated the church a basilica in 1984, and when he visited 10 years later, nearly 650.000 of faithful flocked to Levoča to attend mass.",
+                "type": "activity",
+                "location": "https://goo.gl/maps/dJvKwnRHHYJ2",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "opening_hours",
+                        "title": null,
+                        "text": "All year round"
+                    },
+                    {
+                        "icon": "fee",
+                        "title": null,
+                        "text": "Free"
+                    }
+                ],
+                "activity": []
+            },
+            {
+                "id": 22,
+                "day": 4,
+                "title": "4th stop - Vrbov thermal pools – evening program",
+                "description": "Great local thermal pools with hot geothermal water. All you need to bring is swimsuit and your own towel. Possibly some flip-flops too. There are lockers inside where you can leave your stuff and changing rooms to change your clothes. You will get a bracelet and lock the lockers with it. If you want to buy anything, you need to go to your locker and take the cash. There are several outdoor pools with various temperature of water. It varies from 26 till 38°C. The  water is geothermal, full of minerals and originally it has 62°C. They have to cool it down to use it. \n\nTips: \n\nDon´t stay in the hottest pool for too long, because you will be too tired quickly. Rather change the pools and go to colder pools as well. \n\nIf the temperature is too high during the day (more than 20°C), I don´t recommend to go there. Rather wait till the evening and arrive there later, when the temperature drops down. Your experience will be much better. In that case you should arrive there latest at 19:30. If you buy 2,5 hrs ticket, you can spend in the pools 2 hours till 21:30. At this time they let all the visitor go out of the pools and till 22:00 you should leave the place.",
+                "type": "activity",
+                "location": "https://goo.gl/maps/Nqz8oEAnbPy",
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [
+                    {
+                        "icon": "fee",
+                        "title": null,
+                        "text": "Starting at 11 EUR/person for 2:30 hrs"
+                    },
+                    {
+                        "icon": "website",
+                        "title": null,
+                        "text": "http://termalnekupalisko.com/"
+                    },
+                    {
+                        "icon": "parking",
+                        "title": null,
+                        "text": "For free"
+                    },
+                    {
+                        "icon": "opening_hours",
+                        "title": null,
+                        "text": "Jun-Aug: 9-22:00, Sept-May: 9:00-21:00"
+                    }
+                ],
+                "activity": []
+            },
+            {
+                "id": 23,
+                "day": 4,
+                "title": "PLACES TO EAT",
+                "description": null,
+                "type": "restaurant",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": [
+                    {
+                        "id": 1,
+                        "title": "Kupecka Basta (Levoča)",
+                        "description": "Restaurant situated in an old bastion built in 17th century. International cuisine.",
+                        "type": "restaurant",
+                        "location": "https://goo.gl/maps/A8aLUJyCSwr28WhU9",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Menu: http://www.kupeckabasta.sk/en-index.html"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "Hotel u Leva restaurant (Levoča)",
+                        "description": "Restaurant situated in a 3* hotel directly at the main square of Levoča. You can admire the historical sites directly from the terrace. Italian and international cuisine.",
+                        "type": "resturant",
+                        "location": "https://goo.gl/maps/hcyn3KshTvAZpwGz6",
+                        "arrival_time": null,
+                        "images": [
+                            {
+                                "id": 1,
+                                "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                            },
+                            {
+                                "id": 2,
+                                "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                            }
+                        ],
+                        "others": [
+                            {
+                                "icon": "website",
+                                "title": null,
+                                "text": "Menu: https://www.uleva.sk/en/restaurant/?cn-reloaded=1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "day": 5,
+                "title": "Departure from Bratislava",
+                "description": "You should check out till 10:00 from your hotel.  \n\nWe hope you enjoyed your Vacation in Slovakia with SLOVAKATION and we wish you a safe journey home.",
+                "type": "activity",
+                "location": null,
+                "arrival_time": null,
+                "images": [
+                    {
+                        "id": 1,
+                        "link": "./mock/itinerary/assets/images/misty-forest.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "link": "./mock/itinerary/assets/images/winter-lake.jpg"
+                    }
+                ],
+                "others": [],
+                "activity": []
+            }
+        ]
+    }
+}
