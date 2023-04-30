@@ -1,10 +1,11 @@
 package com.fiiliip.tripli
 
-import android.media.Image
+import com.google.gson.annotations.SerializedName
 
 data class ItineraryItem(
-    val imageUri: String,
+    val image: String,
     val title: String,
+    @field:SerializedName("author_nickname")
     val authorNickname: String,
     val price: Double,
     val rating: Float

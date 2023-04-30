@@ -17,13 +17,12 @@
     <TextView
         android:id="@+id/itinerary_item_title"
         android:layout_width="150dp"
-        android:layout_height="17dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="25dp"
         android:text="Ubud, Bali"
         android:textColor="@android:color/black"
         app:layout_constraintStart_toEndOf="@+id/itinerary_item_image"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/include"
         tools:text="Ubud, Bali" />
 
     <TextView
@@ -31,12 +30,11 @@
         android:layout_width="150dp"
         android:layout_height="12dp"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="25dp"
         android:text="Author Nickname"
         android:textColor="@android:color/black"
         android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/itinerary_item_image"
+        app:layout_constraintTop_toBottomOf="@+id/itinerary_item_title"
         tools:text="WillTh3Traveller_" />
 
     <include
@@ -49,19 +47,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <RatingBar
-        android:id="@+id/itinerary_item_rating"
-        android:layout_width="58dp"
+        android:id="@+id/itinerary_item_rating_bar"
+        style="@style/CustomRatingBar"
+        android:layout_width="wrap_content"
         android:layout_height="10dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="21dp"
+        android:layout_marginTop="8dp"
         android:isIndicator="true"
-        android:max="5"
-        android:scaleX=".1"
-        android:scaleY=".1"
-        android:transformPivotX="0dp"
-        android:transformPivotY="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="0.5"
+        app:layout_constraintStart_toStartOf="@+id/include"
         app:layout_constraintTop_toBottomOf="@+id/include" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

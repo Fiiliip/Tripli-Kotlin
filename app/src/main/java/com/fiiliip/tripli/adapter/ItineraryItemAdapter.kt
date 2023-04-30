@@ -1,6 +1,8 @@
 package com.fiiliip.tripli.adapter
 
-import android.net.Uri
+import android.content.Context
+import android.graphics.Rect
+import android.graphics.drawable.Drawable
 import android.widget.ImageView
 import android.view.LayoutInflater
 import android.view.View
@@ -12,15 +14,24 @@ import com.fiiliip.tripli.ItineraryItem
 import com.fiiliip.tripli.R
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import java.io.InputStream
+import java.text.DecimalFormat
 
-class ItineraryItemAdapter(private val itineraryItemList: List<ItineraryItem>) : RecyclerView.Adapter<ItineraryItemAdapter.ItineraryItemViewHolder>() {
+class ItineraryItemAdapter(private val itineraryItemList: List<ItineraryItem>, private val context: Context) : RecyclerView.Adapter<ItineraryItemAdapter.ViewHolder>() {
 
-    class ItineraryItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
-        val imageView: ImageView = view.findViewById(R.id.itinerary_item_image)
-        val titleTextView: TextView = view.findViewById(R.id.itinerary_item_title)
-        val authorNicknameTextView: TextView = view.findViewById(R.id.itinerary_item_author_nickname)
-        val priceTextView: TextView = view.findViewById(R.id.price_tag_price)
-        val ratingBar: RatingBar = view.findViewById(R.id.itinerary_item_rating_bar)
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val imageView: ImageView = itemView.findViewById(R.id.itinerary_item_image)
+        val titleTextView: TextView = itemView.findViewById(R.id.itinerary_item_title)
+        val authorNicknameTextView: TextView = itemView.findViewById(R.id.itinerary_item_author_nickname)
+        val priceTextView: TextView = itemView.findViewById(R.id.price_tag_price)
+        val ratingBar: RatingBar = itemView.findViewById(R.id.itinerary_item_rating_bar)
+    }
+
+    class BottomMarginItemDecoration(private val marginBottom: Int) : RecyclerView.ItemDecoration() {
+        override fun getItemOffsets(outRect: Rect, view: View, parent: RecyclerView, state: RecyclerView.State) {
+            super.getItemOffsets(outRect, view, parent, state)
+            outRect.bottom = marginBottom
+        }
     }
 
     companion object {
@@ -28,20 +39,25 @@ class ItineraryItemAdapter(private val itineraryItemList: List<ItineraryItem>) :
             val listType = object : TypeToken<List<ItineraryItem>>() {}.type
             return Gson().fromJson(json, listType)
         }
+
+        const val DEFAULT_MARGIN_BOTTOM_DP = 8
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItineraryItemAdapter.ItineraryItemViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItineraryItemAdapter.ViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.itinerary_item, parent, false)
-        return ItineraryItemViewHolder(itemView)
+        return ViewHolder(itemView)
     }
 
-    override fun onBindViewHolder(holder: ItineraryItemViewHolder, position: Int) {
+    override fun onBindViewHolder(viewHolder: ItineraryItemAdapter.ViewHolder, position: Int) {
         val currentItem = itineraryItemList[position]
-        holder.imageView.setImageURI(Uri.parse(currentItem.imageUri))
-        holder.titleTextView.text = currentItem.title
-        holder.authorNicknameTextView.text = currentItem.authorNickname
-        holder.priceTextView.text = currentItem.price.toString()
-        holder.ratingBar.rating = currentItem.rating
+
+        val inputStream: InputStream = context.assets.open(currentItem.image)
+        viewHolder.imageView.setImageDrawable(Drawable.createFromStream(inputStream, null))
+
+        viewHolder.titleTextView.text = currentItem.title
+        viewHolder.authorNicknameTextView.text = currentItem.authorNickname
+        viewHolder.priceTextView.text = DecimalFormat("###.#").format(currentItem.price) + "€"
+        viewHolder.ratingBar.rating = currentItem.rating
     }
 
     override fun getItemCount() = itineraryItemList.size

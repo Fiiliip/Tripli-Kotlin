@@ -9,7 +9,7 @@
     "estimated_trip_price": 532,
     "price": 13,
     "rating": 4,
-    "image": "./mock/itinerary/assets/images/sunny-carribean.jpg"     
+    "image": "mock/itinerary/assets/images/sunny-carribean.jpg"
   },
   {
     "id": 0,
@@ -19,9 +19,9 @@
     "duration": 14,
     "destinations": ["Slovakia"],
     "estimated_trip_price": 984,
-    "price": 12,
+    "price": 12.65,
     "rating": 4,
-    "image": "./mock/itinerary/assets/images/self-drive-slovakia.jpg"
+    "image": "mock/itinerary/assets/images/self-drive-slovakia.jpg"
   },
   {
     "id": 0,
@@ -33,7 +33,7 @@
     "estimated_trip_price": 2515,
     "price": 243,
     "rating": 5,
-    "image": "./mock/itinerary/assets/images/wine-tasting.jpg" 
+    "image": "mock/itinerary/assets/images/wine-tasting.jpg"
   },
   {
     "id": 0,
@@ -45,7 +45,7 @@
     "estimated_trip_price": 324,
     "price": 3,
     "rating": 2,
-    "image": "./mock/itinerary/assets/images/rainy-england.jpg"   
+    "image": "mock/itinerary/assets/images/rainy-england.jpg"
   },
   {
     "id": 0,
@@ -57,7 +57,7 @@
     "estimated_trip_price": 65,
     "price": 24,
     "rating": 5,
-    "image": "./mock/itinerary/assets/images/zanzibar.jpg"   
+    "image": "mock/itinerary/assets/images/zanzibar.jpg"
   },
   {
     "id": 0,
@@ -69,7 +69,7 @@
     "estimated_trip_price": 1473,
     "price": 18,
     "rating": 4,
-    "image": "./mock/itinerary/assets/images/coral-reef.jpg"   
+    "image": "mock/itinerary/assets/images/coral-reef.jpg"
   },
   {
     "id": 0,
@@ -81,6 +81,6 @@
     "estimated_trip_price": 768,
     "price": 6,
     "rating": 3,
-    "image": "./mock/itinerary/assets/images/czechia-beer.jpg"   
+    "image": "mock/itinerary/assets/images/czechia-beer.jpg"
   }
 ]
