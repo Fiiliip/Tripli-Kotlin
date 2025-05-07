@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "author_nickname": "Dwayne Johnson",
+    "title": "Sunny Carribean",
+    "themes": ["Discover", "Relax"],
+    "duration": 14,
+    "destinations": ["Cuba, Havana"],
+    "estimated_trip_price": 532,
+    "price": 13,
+    "rating": 4,
+    "image": "mock/itinerary/assets/images/sunny-carribean.jpg"
+  },
+  {
+    "id": 0,
+    "author_nickname": "Martin Talač",
+    "title": "SELF-DRIVE BEST OF SLOVAKIA",
+    "themes": ["Discover", "City break"],
+    "duration": 14,
+    "destinations": ["Slovakia"],
+    "estimated_trip_price": 984,
+    "price": 12.65,
+    "rating": 4,
+    "image": "mock/itinerary/assets/images/self-drive-slovakia.jpg"
+  },
+  {
+    "id": 0,
+    "author_nickname": "David Bolapon",
+    "title": "Degustazione di vini in giro per l'Italia.",
+    "themes": ["Relax"],
+    "duration": 14,
+    "destinations": ["Italy, Toscana"],
+    "estimated_trip_price": 2515,
+    "price": 243,
+    "rating": 5,
+    "image": "mock/itinerary/assets/images/wine-tasting.jpg"
+  },
+  {
+    "id": 0,
+    "author_nickname": "Queen Elizabeth",
+    "title": "Rainy England",
+    "themes": ["Culture"],
+    "duration": 3,
+    "destinations": ["England, London"],
+    "estimated_trip_price": 324,
+    "price": 3,
+    "rating": 2,
+    "image": "mock/itinerary/assets/images/rainy-england.jpg"
+  },
+  {
+    "id": 0,
+    "author_nickname": "Wooga Wooga",
+    "title": "Unexplored Zanzibar",
+    "themes": ["Relax", "Adventure"],
+    "duration": 14,
+    "destinations": ["Africa, Zanzibar"],
+    "estimated_trip_price": 65,
+    "price": 24,
+    "rating": 5,
+    "image": "mock/itinerary/assets/images/zanzibar.jpg"
+  },
+  {
+    "id": 0,
+    "author_nickname": "Nemo",
+    "title": "My Home",
+    "themes": ["Tourism"],
+    "duration": 24,
+    "destinations": ["Australia, Sydney"],
+    "estimated_trip_price": 1473,
+    "price": 18,
+    "rating": 4,
+    "image": "mock/itinerary/assets/images/coral-reef.jpg"
+  },
+  {
+    "id": 0,
+    "author_nickname": "DrunkieGuy34",
+    "title": "Drinking beer around Czechia",
+    "themes": ["Relax", "Tourism"],
+    "duration": 7,
+    "destinations": ["Czech Republic, Prague", "Czech Republic, Brno"],
+    "estimated_trip_price": 768,
+    "price": 6,
+    "rating": 3,
+    "image": "mock/itinerary/assets/images/czechia-beer.jpg"
+  }
+]
