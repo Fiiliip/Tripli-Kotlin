@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="inactive">#E3E3E3</color>
-    <color name="active">#F5AC9C</color>
-    <color name="text">#545773</color>
-    <color name="neutral_text">#B3B3B3</color>
-    <color name="heart_red">#E95F68</color>
-    <color name="black">#000000</color>
-</resources>
