@@ -3,7 +3,7 @@
     <string name="home_header_text">Discovered\nfor you!</string>
     <string name="filter_btn_text">Filter</string>
     <string name="quick_search">Quick search</string>
+    <string name="price_tag_text">23€</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="price_tag_text">23€</string>
 </resources>

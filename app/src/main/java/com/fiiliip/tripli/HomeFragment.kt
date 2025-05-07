@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.fiiliip.tripli.adapter.ItineraryItemAdapter
 import com.google.gson.Gson
 import java.io.IOException
-import java.nio.charset.Charset
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -40,6 +39,8 @@ class HomeFragment : Fragment() {
         val itineraryItems = loadItineraryItemsFromJson(requireContext()) // Load itinerary items from the JSON file located in the assets folder
         val adapter = ItineraryItemAdapter(itineraryItems, requireContext()) // Load itinerary items from the JSON file located in the assets folder
         itineraryListRecyclerView.adapter = adapter // Set the adapter for itineraryList to the new adapter
+
+
 
         // Set margin bottom to items in recycler view
         val marginBottomPx = TypedValue.applyDimension(
